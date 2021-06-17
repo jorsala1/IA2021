@@ -106,7 +106,7 @@ function test(states){
 				
 			}
 			 
-		}, 20);	
+		}, 200);	
 }
 
 
