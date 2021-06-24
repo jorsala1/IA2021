@@ -7,7 +7,7 @@ app.listen(3000, ()=>{
 });
 
 app.get('/', (req,res)=>{
-    console.log(arrayValoresPonderados());
+    console.log(req.url);
     res.send('Probando raiz');
 });
 
